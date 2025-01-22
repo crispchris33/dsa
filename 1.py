@@ -163,7 +163,17 @@ numbers = [1, 2, 3, 4, 5]
 16
 25
 
+nums = [1, 2, 3, 4, 5]
+
+for i in range(len(nums)):
+    print(str(nums[i] * nums[i]))
+
 
 10. Reverse a String
 Write a program to reverse a string using a for loop. For example: Input: "hello" Output: "olleh"
-  
+   
+string = "hello"
+new = ""
+for i in range(len(string) -1, -1, -1):
+    new += string[i]
+print(new)
