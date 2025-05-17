@@ -21,3 +21,13 @@ print(isinstance(x, int))  # True
 
 x = "hello"
 print(isinstance(x, (str, int)))  # True
+
+
+
+#remove char from a string
+    # str.replace(target, replace_with)
+    # s.replace("!", "")
+
+#return a list of distinct elements(removing duplicates)
+
+#   return sorted(set(seq))
